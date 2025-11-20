@@ -54,10 +54,10 @@ function App() {
 
   return (
     <>
-      <h1 style={{ marginBottom: "14px" }}>Contatos do Luis Mário</h1>
+      <h1 style={{ marginBottom: "14px" }}>Wilson's Agenda</h1>
 
       <div style={{ display: "flex", gap: "12px", marginBottom: "20px" }}>
-  <button onClick={() => setIsModalOpen(true)}>Create New Contact</button>
+  <button onClick={() => setIsModalOpen(true)}>Criar Contato</button>
 
   <button
     onClick={() => setDarkMode(!darkMode)}

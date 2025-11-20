@@ -21,10 +21,10 @@ const ContactList = ({ contacts, updateContact, updateCallback }) => {
             <table>
                 <thead>
                     <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
+                        <th>Primeiro Nome</th>
+                        <th>Ultimo Nome</th>
                         <th>Email</th>
-                        <th>Actions</th>
+                        <th>Alterações</th>
                     </tr>
                 </thead>
 
@@ -35,13 +35,13 @@ const ContactList = ({ contacts, updateContact, updateCallback }) => {
                             <td>{contact.lastName}</td>
                             <td>{contact.email}</td>
                             <td>
-                                <button onClick={() => updateContact(contact)}>Update</button>
+                                <button onClick={() => updateContact(contact)}>Atualizar</button>
                                 <button
                                     className="delete"
                                     onClick={() => onDelete(contact.id)}
                                     style={{ marginLeft: "10px" }}
                                 >
-                                    Delete
+                                    Excluir
                                 </button>
                             </td>
                         </tr>

@@ -224,3 +224,14 @@ body.dark button.delete {
 body.dark button.delete:hover {
   background-color: #991b1b;
 }
+
+.input-error {
+  border: 1px solid #dc2626 !important;
+  background-color: #fef2f2;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 4px 0 0 2px;
+}
